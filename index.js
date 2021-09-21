@@ -25,7 +25,7 @@ app.get('/', async(req, res)=>{
         scope: 'email:read', 
         code_challenge_method: 'S256',
         code_challenge: challenge,
-        state:'qwertyuiop'
+        state:'poiuytrewq'
     })
     res.send(`
     <h1> Lichess Client Side </h1>
